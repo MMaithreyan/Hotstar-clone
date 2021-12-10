@@ -180,7 +180,7 @@ body {
     height: 100px; 
     background-color: transparent;
     padding: 0px 25px;
-
+    position: fixed;
 }
 .links{
     padding-left: 25px;
