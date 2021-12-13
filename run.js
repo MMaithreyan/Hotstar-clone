@@ -41,7 +41,6 @@ const createSlide = () => {
         sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${30 * (sliders.length - 2)}px)`;
     }
 
-
 }
 for (let i = 0; i < 3; i++) {
     createSlide();
@@ -50,4 +49,4 @@ for (let i = 0; i < 3; i++) {
 setInterval(() => {
     createSlide();
 }, 
-3000);
+2000);
