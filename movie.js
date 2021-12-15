@@ -15,7 +15,7 @@ let movies = [
         image: 'images/slider 3.PNG'
     },
     {
-        name: 'Raya and the last dragon',
+        name: 'Raya and the Last Dragon',
         des: 'Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people.',
         image: 'images/slider 4.PNG'
     },
