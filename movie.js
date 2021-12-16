@@ -1,13 +1,13 @@
 let movies = [
     {
-        name: 'Iron-Man',
-        des: 'American superhero film based on the Marvel Comics character of the same name In the film, following his escape from captivity by a terrorist group, world famousindustrialist and master engineer Tony Stark builds a mechanized suit of armor and becomes the superhero Iron Man.',
-        image: 'images/slider 1.jpg'
+        name: 'Bolt',
+        des: 'An animation adventure movie about the canine star of a fictional Sci-Fi action show that believes his powers are real and embarks on a cross-country trek to save his co-star from a threat.',
+        image: 'images/slider 1.0.jpg'
     },
     {
-        name: 'Falcon and the Winter Soldier',
-        des: 'Falcon and the Winter Soldier are a mismatched duo who team up for a global adventure that will test their survival skills -- as well as their patience.',
-        image: 'images/slider 2.PNG'
+        name: 'The Boss Baby',
+        des: 'Seven-year-old Tim gets jealous when his parents give all their attention to his little brother. Tim soon learns that the baby can talk and the two team up to foil the plans of the CEO of Puppy Co.',
+        image: 'images/slider 2.0.jpg'
     },
     {
         name: 'Wanda Vision',
