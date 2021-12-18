@@ -88,7 +88,7 @@ body {
     outline: none;
     height: 30px;
     color: white;
-    width: 250px;
+    width: 50%;
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
@@ -174,6 +174,9 @@ body {
     padding-left: 50px;
     margin-top: 30px;
     opacity: 0.8;
+}
+.mobile-footer{
+    display: none;
 }
 .fotter{
     width: 100%;
@@ -411,6 +414,25 @@ bottom: 70px;
 .video-card:hover .video-card-image{
     display: none;
 }
+
+
+
+@media screen and (max-width:1156px) {
+    .title{
+        display: none;
+    }
+}
+
+@media screen and (max-width:640px) {
+.login-link{
+    display: none;
+}
+.search-box{
+    display: none;
+}
+}
+
+@media screen and (max-width:768px) {
 .mobile-footer{
     width: 100%;
     height: 50px; 
@@ -430,4 +452,11 @@ bottom: 70px;
 .fott-logo{
     height: 50px;
     width: 100px;
+}
+.title{
+    display: none;
+}
+.fotter{
+    display: none;
+}
 }
