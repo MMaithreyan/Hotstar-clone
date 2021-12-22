@@ -427,12 +427,12 @@ body {
 }
 
 
-/* 
+
 @media screen and (max-width:1156px) {
-    .title {
+    .navebar-title {
         display: none;
     }
-} */
+}
 
 @media screen and (max-width:640px) {
     .login-link {
@@ -487,9 +487,9 @@ body {
         width: 90%;
     }
 
-    /* .title {
+    .navebar-title {
         display: none;
-    } */
+    }
 
     .fotter {
         display: none;
