@@ -268,9 +268,8 @@ body {
 }
 
 .card-container::-webkit-scrollbar {
-    display: none;
-}
-
+   display: none; 
+} 
 .card {
     position: relative;
     min-width: 150px;
