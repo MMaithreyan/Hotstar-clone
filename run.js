@@ -37,12 +37,19 @@ const createSlide = () => {
 
 }
 
+
+
+
 movies.forEach(m=>{
     createSlide();
 })
+
+
+
+
 slideIndex=0;
-createSlide();
 let i=0;
+
 setInterval(() => {
     if (i >= movies.length) {
         sliders.forEach(s=>{
