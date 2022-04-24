@@ -1,12 +1,8 @@
 const carousel = document.querySelector('.carousel');
 let sliders = [];
-
-let slideIndex = 0; // to track current slide index.
+let slideIndex=0;
 
 const createSlide = () => {
-    if (slideIndex >= movies.length) {
-        slideIndex = 0;
-    }
 
     // creating DOM element
     let slide = document.createElement('div');
@@ -38,17 +34,24 @@ const createSlide = () => {
 
     sliders.push(slide);
     //adding sliding effect
-    if (sliders.length) {
-        sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${30 * (sliders.length - 2)}px)`;
-    }
 
 }
-//const load=()=>{
-  //  createSlide();
-//}
 
-setInterval(() => {
+movies.forEach(m=>{
     createSlide();
+})
+slideIndex=0;
+createSlide();
+let i=0;
+setInterval(() => {
+    if (i >= movies.length) {
+        sliders.forEach(s=>{
+            s.style.marginLeft='0';
+        })
+        i = 0;
+    }
+    sliders[i].style.marginLeft = '-100%';
+    i++;
 }, 
 2000);
 
