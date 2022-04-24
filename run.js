@@ -43,9 +43,9 @@ const createSlide = () => {
     }
 
 }
-for (let i = 0; i < 3; i++) {
-    createSlide();
-}
+//const load=()=>{
+  //  createSlide();
+//}
 
 setInterval(() => {
     createSlide();
