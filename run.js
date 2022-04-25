@@ -50,7 +50,10 @@ movies.forEach(m=>{
 slideIndex=0;
 let i=0;
 
+
+
 setInterval(() => {
+
     if (i >= movies.length) {
         sliders.forEach(s=>{
             s.style.marginLeft='0';
@@ -59,6 +62,8 @@ setInterval(() => {
     }
     sliders[i].style.marginLeft = '-100%';
     i++;
+    createSlide();
+
 }, 
 2000);
 
