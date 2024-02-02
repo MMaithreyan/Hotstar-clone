@@ -1,4 +1,4 @@
 # Hotstar-clone
 
-click here to view web page
+Click the link below....
 Demo Link:https://hotstar-clone-maithreyan.netlify.app/
